@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Grade Curricular - Pedagogia</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h2 {
+      background-color: #f1f1f1;
+      padding: 10px;
+      margin-top: 40px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 30px;
+    }
+    th, td {
+      border: 1px solid #999;
+      padding: 10px;
+      vertical-align: top;
+      text-align: left;
+    }
+    th {
+      background-color: #dce6f1;
+    }
+    td span.prof {
+      display: block;
+      color: #800000;
+      font-style: italic;
+      margin-top: 4px;
+    }
+    .tabs {
+      margin-top: 20px;
+    }
+    .tab-buttons {
+      display: flex;
+      gap: 10px;
+    }
+    .tab-buttons button {
+      padding: 10px;
+      cursor: pointer;
+      background-color: #ddd;
+      border: none;
+      font-weight: bold;
+    }
+    .tab-buttons button.active {
+      background-color: #bbb;
+    }
+    .tab-content {
+      display: none;
+    }
+    .tab-content.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Grade Curricular - Pedagogia</h1>
+
+<div class="tabs">
+  <div class="tab-buttons">
+    <button class="tab-link active" onclick="openTab('matutino')">Matutino</button>
+    <button class="tab-link" onclick="openTab('noturno')">Noturno</button>
+  </div>
+
+  <div id="matutino" class="tab-content active">
+<h2>1º ano – 1º e 2º semestres (ingresso em Jan e Ago 2025) | Matriz 2025</h2>
+<table>
+  <thead>
+    <tr>
+      <th>2ª feira</th>
+      <th>3ª feira</th>
+      <th>4ª feira</th>
+      <th>5ª feira</th>
+      <th>6ª feira</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Trabalho autônomo</td>
+      <td>
+        Práticas Educacionais na 1ª infância (45h + 15h assíncrono + 15h síncrono + 50h estágio)
+        <span class="prof">Wal/Vivi</span><br><br>
+        Fundamentos da Matemática para Docência na Educação Básica (15h + 15h síncrona)
+      </td>
+      <td>
+        Oficina de Música (30h + 15h ATPA)<br><br>
+        Oficina de Gêneros Acadêmicos (30h)
+        <span class="prof">Iva</span>
+      </td>
+      <td>
+        Oficina de Jogos e Brincadeiras (30h + 80h extensão)<br><br>
+        Fundamentos para a Educação Inclusiva (15h + 15h síncrono)<br><br>
+        Filosofia e Sociologia da Educação (15h + 15h assíncrono + 15h síncrono)
+      </td>
+      <td>
+        Aulas síncronas<br><br>
+        Filosofia e Sociologia da Educação (15h + 15h assíncrono + 15h síncrono)<br><br>
+        Práticas Educacionais na 1ª infância (45h + 15h assíncrono + 15h síncrono + 50h estágio)
+        <span class="prof">Wal/Vivi</span><br><br>
+        Fundamentos da Matemática para Docência (30h + 15h síncrona)<br><br>
+        Fundamentos para a Educação Inclusiva (15h + 15h síncrono)
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>2º ano – 4º semestre (ingresso em Fev 2024) | Matriz 2023</h2>
+<table>
+  <thead>
+    <tr>
+      <th>2ª feira</th>
+      <th>3ª feira</th>
+      <th>4ª feira</th>
+      <th>5ª feira</th>
+      <th>6ª feira</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        Gestão curricular, Planejamento Escolar e Projeto Educativo (76h + 19h online)
+        <span class="prof">Vivi / Wal / Tathy (?)</span>
+      </td>
+      <td>
+        Práticas para o Ensino de Língua Portuguesa (80h + 50h de estágio)
+        <span class="prof">Cris Mori</span>
+      </td>
+      <td>
+        Oficina de Música (40h)<br><br>
+        História da Educação
+        <span class="prof">Denise</span>
+      </td>
+      <td>
+        Coordenação Pedagógica e Orientação Educacional (80h)
+        <span class="prof">Estela/Sofia</span><br><br>
+        Oficina de Teatro (40h)
+      </td>
+      <td>
+        Atividades de Extensão 1 (80h)<br><br>
+        Oficina de Escrita de Gêneros Acadêmicos (60h)
+        <span class="prof">Edna</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>3º ano – 5º e 6º semestres (ingresso em Ago 2023) | Matriz 2023</h2>
+<table>
+  <thead>
+    <tr>
+      <th>2ª feira</th>
+      <th>3ª feira</th>
+      <th>4ª feira</th>
+      <th>5ª feira</th>
+      <th>6ª feira</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        Gestão curricular, Planejamento Escolar e Projeto Educativo (76h + 19h online)
+        <span class="prof">Vivi / Wal / Tathy (?)</span>
+      </td>
+      <td>
+        Práticas para o Ensino de Língua Portuguesa (80h + 50h de estágio)
+        <span class="prof">Cris Mori</span>
+      </td>
+      <td>Trabalho autônomo</td>
+      <td>
+        Coordenação Pedagógica e Orientação Educacional (40h / 40h online)
+        <span class="prof">Estela/Sofia</span><br><br>
+        Oficina de Teatro (40h)
+      </td>
+      <td>
+        Atividades de Extensão 1 (80h)<br><br>
+        Oficina de Escrita de Gêneros Acadêmicos (60h)
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>4º ano – 7º semestre (ingresso em Ago 2022) | Matriz 2017</h2>
+<table>
+  <thead>
+    <tr>
+      <th>2ª feira</th>
+      <th>3ª feira</th>
+      <th>4ª feira</th>
+      <th>5ª feira</th>
+      <th>6ª feira</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Formação Integral<br><span class="prof">Beth</span></td>
+      <td>Eletiva II Círculo de Cultura</td>
+      <td>TCC 1<br><span class="prof">Sofia</span></td>
+      <td>
+        Dilemas do Séc. XXI<br><span class="prof">Denise</span><br><br>
+        Oficina de Teatro <br><span class="prof">Mau</span>
+      </td>
+      <td>Trabalho Autônomo</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>4º ano – 8º semestre (ingresso em Fev 2022) | Matriz 2017</h2>
+<table>
+  <thead>
+    <tr>
+      <th>2ª feira</th>
+      <th>3ª feira</th>
+      <th>4ª feira</th>
+      <th>5ª feira</th>
+      <th>6ª feira</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ofício de Professor<br><span class="prof">Alci</span></td>
+      <td>Eletiva II Círculo de Cultura</td>
+      <td>TCC 2<br><span class="prof">Sofia</span></td>
+      <td>
+        Dilemas do Séc. XXI<br><span class="prof">Denise</span><br><br>
+        Oficina de Teatro
+      </td>
+      <td>Trabalho Autônomo</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+  <div id="noturno" class="tab-content">
+    <h2>1º ano – 1º e 2º semestres (ingresso em Jan e Ago 2025) | Matriz 2025</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>2ª feira</th>
+          <th>3ª feira</th>
+          <th>4ª feira</th>
+          <th>5ª feira</th>
+          <th>6ª feira</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Trabalho autônomo</td>
+          <td>
+            Oficina de Jogos e Brincadeiras (30h + 80h extensão)<br><br>
+            Fundamentos para a Educação Inclusiva (15h + 15h síncrono)<br><br>
+            Fundamentos da Matemática para Docência (15h + 15h síncrono)
+          </td>
+          <td>
+            Oficina de Música (30h + 15h ATPA)<br><br>
+            Oficina de Gêneros Acadêmicos (30h)<br>
+            <span class="prof">Iva</span>
+          </td>
+          <td>
+            Práticas Educacionais na 1ª infância (45h + 15h assíncrono + 15h síncrono + 50h estágio)
+            <span class="prof">Wal/Vivi</span><br><br>
+            Filosofia e Sociologia da Educação (15h + 15h assíncrono + 15h síncrono)
+          </td>
+          <td>
+            Aulas síncronas<br><br>
+            Filosofia e Sociologia da Educação (15h + 15h assíncrono + 15h síncrono)<br><br>
+            Práticas Educacionais na 1ª infância (45h + 15h assíncrono + 15h síncrono + 50h estágio)
+            <span class="prof">Wal/Vivi</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>2º ano – 4º semestre (ingresso em Fev 2024) | Matriz 2023</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>2ª feira</th>
+          <th>3ª feira</th>
+          <th>4ª feira</th>
+          <th>5ª feira</th>
+          <th>6ª feira</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Gestão curricular, Planejamento Escolar e Projeto Educativo (76h + 19h online)<br>
+            <span class="prof">Vivi / Wal / Tathy (?)</span>
+          </td>
+          <td>
+            Práticas para o Ensino de Língua Portuguesa nos Anos Iniciais do Ensino Fundamental (80h + 50h de estágio)<br>
+            <span class="prof">Cris Mori</span>
+          </td>
+          <td>
+            Oficina de Música (40h)<br><br>
+            História da Educação<br>
+            <span class="prof">Denise</span>
+          </td>
+          <td>
+            Coordenação Pedagógica e Orientação Educacional (80h)<br>
+            <span class="prof">Estela / Sofia</span><br><br>
+            Oficina de Teatro (40h)
+          </td>
+          <td>
+            Atividades de Extensão 1 (80h)<br><br>
+            Oficina de Escrita de Gêneros Acadêmicos (60h)<br>
+            <span class="prof">Edna</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>3º ano – 5º e 6º semestres (ingresso em Ago 2023) | Matriz 2023</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>2ª feira</th>
+          <th>3ª feira</th>
+          <th>4ª feira</th>
+          <th>5ª feira</th>
+          <th>6ª feira</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Gestão curricular, Planejamento Escolar e Projeto Educativo (76h + 19h online)<br>
+            <span class="prof">Vivi / Wal / Tathy (?)</span>
+          </td>
+          <td>
+            Práticas para o Ensino de Língua Portuguesa nos Anos Iniciais do Ensino Fundamental (80h + 50h de estágio)<br>
+            <span class="prof">Cris Mori</span>
+          </td>
+          <td>Trabalho autônomo</td>
+          <td>
+            Coordenação Pedagógica e Orientação Educacional<br>
+            Oficina de Teatro (40h)
+          </td>
+          <td>
+            Atividades de Extensão 1 (80h)<br>
+            Oficina de Escrita de Gêneros Acadêmicos (60h)
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>4º ano – 7º semestre (ingresso em Ago 2022) | Matriz 2017</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>2ª feira</th>
+          <th>3ª feira</th>
+          <th>4ª feira</th>
+          <th>5ª feira</th>
+          <th>6ª feira</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>TCC 1<br><span class="prof">Sofia</span></td>
+          <td>Formação Integral<br><span class="prof">Beth</span></td>
+          <td>Eletiva II Círculo de Cultura</td>
+          <td>
+            Dilemas do Séc. XXI<br><span class="prof">Denise</span><br><br>
+            Oficina de Teatro<br><span class="prof">Mau</span>
+          </td>
+          <td>Trabalho Autônomo</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>4º ano – 8º semestre (ingresso em Fev 2022) | Matriz 2017</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>2ª feira</th>
+          <th>3ª feira</th>
+          <th>4ª feira</th>
+          <th>5ª feira</th>
+          <th>6ª feira</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>TCC 2<br><span class="prof">Gui</span></td>
+          <td>Ofício de Professor<br><span class="prof">Sofia</span></td>
+          <td>Eletiva II Círculo de Cultura</td>
+          <td>
+            Dilemas do Séc. XXI<br><span class="prof">Denise</span><br><br>
+            Oficina de Teatro
+          </td>
+          <td>Trabalho Autônomo</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+  function openTab(tabName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tab-content");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].classList.remove("active");
+    }
+    tablinks = document.getElementsByClassName("tab-link");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].classList.remove("active");
+    }
+    document.getElementById(tabName).classList.add("active");
+    event.currentTarget.classList.add("active");
+  }
+</script>
+
+</body>
+</html>
